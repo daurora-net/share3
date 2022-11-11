@@ -187,7 +187,7 @@ body {
 }
 
 /* サイドナビゲーション */
-.sidenav {
+.side-nav {
   width: 200px;
   height: 100vh;
   padding: 0 20px;
@@ -195,12 +195,12 @@ body {
   border-right: 1px solid #fff;
 }
 
-.logo_img {
+.side-nav_logo {
   width: 100px;
   padding-top: 20px;
 }
 
-.home_img {
+.side-nav_icon {
   width: 25px;
   vertical-align: middle;
   padding-right: 10px;
@@ -213,11 +213,33 @@ body {
   width: 100%;
 }
 
-/* TOPページ */
+/* TOP */
 .top_container {
   display: flex;
 }
 .post_list {
   width: calc(100% - 240px);
   list-style: none;
+}
+
+/* Auth */
+.auth-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.auth-header_logo {
+  width: 100px;
+  vertical-align: middle;
+}
+.auth-header_link {
+  width: 200px;
+}
+.auth-form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
 }
