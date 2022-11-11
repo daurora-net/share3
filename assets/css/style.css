@@ -240,7 +240,7 @@ body {
 }
 .auth-form {
   width: 322px;
-  margin: 50px auto;
+  margin: 20vh auto 0;
   padding: 30px;
   background-color: #fff;
   border-radius: 10px;
@@ -263,7 +263,7 @@ body {
 }
 .auth-form_btn {
   display: block;
-  margin: 20vh auto 0;
+  margin: 20px auto 0;
   background-color: #5419DA;
   color: #fff;
   padding: 8px 18px 7px;
