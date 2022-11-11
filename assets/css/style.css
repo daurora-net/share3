@@ -234,10 +234,9 @@ body {
   vertical-align: middle;
 }
 .auth-header_link {
-  width: 200px;
-}
-.auth-header_link a {
-  padding: 0 20px;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
 }
 .auth-form {
   width: 322px;
