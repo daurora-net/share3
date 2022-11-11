@@ -1,9 +1,9 @@
 <template>
   <div class="register">
     <AuthHeader />
-    <input v-model="name" type="email" value="ユーザーネーム" required />
-    <input v-model="email" type="email" value="メールアドレス" required />
-    <input v-model="password" type="password" value="パスワード" required />
+    <input v-model="name" type="email" placeholder="ユーザーネーム" required />
+    <input v-model="email" type="email" placeholder="メールアドレス" required />
+    <input v-model="password" type="password" placeholder="パスワード" required />
     <button @click="register">新規登録</button>
   </div>
 </template>
