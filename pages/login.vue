@@ -1,10 +1,12 @@
 <template>
   <div class="login">
     <AuthHeader />
-    <input v-model="name" type="email" placeholder="ユーザーネーム" required />
-    <input v-model="email" type="email" placeholder="メールアドレス" required />
-    <input v-model="password" type="password" placeholder="パスワード" required />
-    <button @click="login">ログイン</button>
+    <div class="auth-form">
+      <p class="auth-form_ttl">ログイン</p>
+      <input class="auth-form_input" v-model="email" type="email" placeholder="メールアドレス" required />
+      <input class="auth-form_input" v-model="password" type="password" placeholder="パスワード" required />
+      <button class="auth-form_btn" @click="ぉぎn">ログイン</button>
+      </div>
   </div>
 </template>
 

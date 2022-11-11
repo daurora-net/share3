@@ -237,12 +237,16 @@ body {
   width: 200px;
 }
 .auth-form {
-  width: 320px;
+  width: 323px;
   margin: 50px auto;
   padding: 40px;
   background-color: #fff;
   border-radius: 10px;
   display: block;
+}
+.auth-form_ttl {
+  font-size: 16px;
+  font-weight: bold;
 }
 .auth-form_input {
   border-radius: 10px;

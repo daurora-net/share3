@@ -2,6 +2,7 @@
   <div class="register">
     <AuthHeader />
     <div class="auth-form">
+      <p class="auth-form_ttl">新規登録</p>
       <input class="auth-form_input" v-model="name" type="email" placeholder="ユーザーネーム" required />
       <input class="auth-form_input" v-model="email" type="email" placeholder="メールアドレス" required />
       <input class="auth-form_input" v-model="password" type="password" placeholder="パスワード" required />
