@@ -1,12 +1,10 @@
 <template>
   <div class="register">
-    <label>メールアドレス： <input v-model="email" type="email" required /></label>
-    <br />
-    <label>パスワード： <input v-model="password" type="password" required /></label>
-    <br />
+    <AuthHeader />
+    <input v-model="name" type="email" value="ユーザーネーム" required />
+    <input v-model="email" type="email" value="メールアドレス" required />
+    <input v-model="password" type="password" value="パスワード" required />
     <button @click="register">新規登録</button>
-    <br />
-    <NuxtLink to="/">戻る</NuxtLink>
   </div>
 </template>
 

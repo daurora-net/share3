@@ -1,9 +1,8 @@
 <template>
   <div class="sidenav">
     <img class="logo_img" src="../assets/img/logo.png" alt="">
-    <p><a href=""><img class="home_img" src="../assets/img/home.png" alt="">ホーム</a></p>
-    <p><a href=""><img class="home_img" src="../assets/img/logout.png" alt="">ログアウト</a></p>
-    <p>シェア</p>
+    <img class="home_img" src="../assets/img/home.png" alt=""><NuxtLink to="/">ホーム</NuxtLink>
+    <img class="home_img" src="../assets/img/logout.png" alt=""><NuxtLink to="/logout">ログアウト</NuxtLink>
     <div>
       <!-- <input class="share_box" type="text" v-model="text">
       <p>{{ text | upperCase }}</p> -->
