@@ -194,13 +194,13 @@ body {
   line-height: 40px;
   border-right: 1px solid #fff;
 }
+.side-nav a {
+  display: block;
+}
 
 .side-nav_logo {
   width: 100px;
   padding-top: 20px;
-}
-.side-nav_logo a {
-  display: block;
 }
 
 .side-nav_icon {
