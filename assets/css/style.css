@@ -239,8 +239,10 @@ body {
 .top_container {
   display: flex;
 }
-.post_list {
+.main_wrap {
   width: calc(100% - 240px);
+}
+.post_list {
   list-style: none;
 }
 

@@ -1,5 +1,4 @@
 <template>
-  <div>
   <ul>
     <!-- <li class="post_list" v-for="user in users" :key="user.id">
       {{ user.name }}
@@ -8,7 +7,6 @@
       {{ post.content }}
     </li>
   </ul>
-  </div>
 </template>
 <script>
 import axios from 'axios';
