@@ -216,6 +216,20 @@ body {
   width: 100%;
 }
 
+/* SIDE */
+.side-form_btn {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #5419DA;
+  color: #fff;
+  padding: 8px 18px 7px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 /* TOP */
 .top_container {
   display: flex;
@@ -225,7 +239,7 @@ body {
   list-style: none;
 }
 
-/* Auth */
+/* AUTH */
 .auth-header {
   padding: 20px;
   display: flex;

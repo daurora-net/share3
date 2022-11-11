@@ -10,8 +10,8 @@
       <button class="button button--green" @click="insert">追加</button> -->
 
           <form>
-            <input type="text" class="input-add" v-method="content" />
-            <button class="button button-add" @click="insert">シェア</button>
+            <input type="text" class="share_box" v-method="content" />
+            <button class="button side-form_btn" @click="insert">シェア</button>
           </form>
     </div>
   </div>
