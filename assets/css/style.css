@@ -210,7 +210,7 @@ body {
 }
 
 .share_box_ttl {
-
+  padding: 10px 0 0;
 }
 .share_box_txt {
   border: 1px solid #fff;
@@ -219,6 +219,7 @@ body {
   width: 193px;
   margin: 0 auto;
   background-color: transparent;
+  color: #fff;
 }
 
 .side-form_btn {
