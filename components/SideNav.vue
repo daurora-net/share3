@@ -1,8 +1,8 @@
 <template>
   <div class="side-nav">
     <img class="side-nav_logo" src="../assets/img/logo.png" alt="">
-    <img class="side-nav_icon" src="../assets/img/home.png" alt=""><NuxtLink to="/">ホーム</NuxtLink>
-    <img class="side-nav_icon" src="../assets/img/logout.png" alt=""><NuxtLink to="/logout">ログアウト</NuxtLink>
+    <NuxtLink to="/"><img class="side-nav_icon" src="../assets/img/home.png" alt="">ホーム</NuxtLink>
+    <NuxtLink to="/logout"><img class="side-nav_icon" src="../assets/img/logout.png" alt="">ログアウト</NuxtLink>
     <div>
       <!-- <input class="share_box" type="text" v-model="text">
       <p>{{ text | upperCase }}</p> -->
