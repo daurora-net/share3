@@ -236,6 +236,9 @@ body {
 .auth-header_link {
   width: 200px;
 }
+.auth-header_link a {
+  padding: 0 20px;
+}
 .auth-form {
   width: 322px;
   margin: 50px auto;
