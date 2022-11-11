@@ -2,10 +2,10 @@
   <div class="register">
     <AuthHeader />
     <div class="auth-form">
-      <input v-model="name" type="email" placeholder="ユーザーネーム" required />
-      <input v-model="email" type="email" placeholder="メールアドレス" required />
-      <input v-model="password" type="password" placeholder="パスワード" required />
-      <button @click="register">新規登録</button>
+      <input class="auth-form_input" v-model="name" type="email" placeholder="ユーザーネーム" required />
+      <input class="auth-form_input" v-model="email" type="email" placeholder="メールアドレス" required />
+      <input class="auth-form_input" v-model="password" type="password" placeholder="パスワード" required />
+      <button class="auth-form_btn" @click="register">新規登録</button>
     </div>
   </div>
 </template>

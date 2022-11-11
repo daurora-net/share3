@@ -237,9 +237,29 @@ body {
   width: 200px;
 }
 .auth-form {
-  width: 300px;
+  width: 320px;
   margin: 50px auto;
-  padding: 30px;
+  padding: 40px;
   background-color: #fff;
   border-radius: 10px;
+  display: block;
+}
+.auth-form_input {
+  border-radius: 10px;
+  border: 1px solid #a5a5a5;
+  margin: 10px auto;
+  display: block;
+  width: 300px;
+  padding: 12px 10px;
+}
+.auth-form_btn {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #5419DA;
+  color: #fff;
+  padding: 8px 18px 7px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1px;
+  font-size: 13px;
 }
