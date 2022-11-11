@@ -237,7 +237,7 @@ body {
   width: 200px;
 }
 .auth-form {
-  width: 323px;
+  width: 316px;
   margin: 50px auto;
   padding: 40px;
   background-color: #fff;
@@ -245,15 +245,18 @@ body {
   display: block;
 }
 .auth-form_ttl {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding-bottom: 10px;
 }
 .auth-form_input {
   border-radius: 10px;
   border: 1px solid #a5a5a5;
   margin: 10px auto;
   display: block;
-  width: 300px;
+  width: 294px;
   padding: 12px 10px;
 }
 .auth-form_btn {
@@ -266,4 +269,8 @@ body {
   border: none;
   letter-spacing: 1px;
   font-size: 13px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: .8;
 }

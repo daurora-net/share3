@@ -6,7 +6,7 @@
       <input class="auth-form_input" v-model="name" type="email" placeholder="ユーザーネーム" required />
       <input class="auth-form_input" v-model="email" type="email" placeholder="メールアドレス" required />
       <input class="auth-form_input" v-model="password" type="password" placeholder="パスワード" required />
-      <button class="auth-form_btn" @click="register">新規登録</button>
+      <button class="btn auth-form_btn" @click="register">新規登録</button>
     </div>
   </div>
 </template>

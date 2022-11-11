@@ -5,7 +5,7 @@
       <p class="auth-form_ttl">ログイン</p>
       <input class="auth-form_input" v-model="email" type="email" placeholder="メールアドレス" required />
       <input class="auth-form_input" v-model="password" type="password" placeholder="パスワード" required />
-      <button class="auth-form_btn" @click="ぉぎn">ログイン</button>
+      <button class="btn auth-form_btn" @click="login">ログイン</button>
       </div>
   </div>
 </template>
