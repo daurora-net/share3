@@ -263,7 +263,7 @@ body {
 }
 .auth-form_btn {
   display: block;
-  margin: 20px auto 0;
+  margin: 20vh auto;
   background-color: #5419DA;
   color: #fff;
   padding: 8px 18px 7px;
